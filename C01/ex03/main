@@ -1,0 +1,8 @@
+int     main(void)
+{
+        int div2;
+        int mod2;
+        ft_div_mod(1, 3, &div2, &mod2);
+        printf("%d ,%d",div2, mod2);
+        return(0);
+}
